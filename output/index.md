@@ -15,7 +15,7 @@ comment:  Use the real Python in your LiaScript courses, by loading this
           template. For more information and to see, which Python-modules are
           accessible visit the [pyodide-website](https://alpha.iodide.io).
 
-script:   pyodide/pyodide.js
+script:   ./pyodide/pyodide.js
 
 
 @Pyodide.exec: @Pyodide.exec_(@uid,```@0```)
